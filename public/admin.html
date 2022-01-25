@@ -56,7 +56,7 @@
 
     // isLogin
     firebase.auth().onAuthStateChanged((user) => {
-      if (user) {
+      if (user) { 
         var uid = user.uid;
         console.log('user', uid);
       } else {
